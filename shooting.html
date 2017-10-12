@@ -1,4 +1,4 @@
-﻿<meta charset="utf-8">
+<meta charset="utf-8">
 <script>
 
 var name = prompt("Привет! Как тебя зовут?");
@@ -7,17 +7,23 @@ alert("Очень приятно, " + name + "!" + " Постреляем по �
 var ugol = parseInt(prompt("задай угол:"));
 var sila = parseInt(prompt("задай силу в %:"));
 
-if ( isNaN(ugol) || isNaN(sila) ) {
+if ( isNaN(ugol) || isNaN(sila) ) 
+{
         alert ('Вводи число!');
 }
 
-if ( ugol >= 10 && ugol <=35 && sila <=90 && sila >=30) {
+if ( ugol >= 10 && ugol <=35 && sila <=90 && sila >=30) 
+{
 		alert("Попадание в мишень №1");
+}
 
-}else if ( ugol >= 60 && ugol <=83 && sila <=90 && sila >=30){
+else if ( ugol >= 60 && ugol <=83 && sila <=90 && sila >=30)
+{
 		alert("Попадание в мишень №2");
 }
-	else  {
+
+	else  
+{
 		alert("Ну ты и косой)))")
 }
 
